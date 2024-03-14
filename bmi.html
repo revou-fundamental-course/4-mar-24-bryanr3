@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator BMI</title>
+    <link rel= 'stylesheet' href="css/bmi.css"> <!-- css dan js file-->
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header1">
+        <img class = "bmiimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BMI_chart.png/1200px-BMI_chart.png">
+        <h1>Kalkulator BMI</h1><br>
+        <p> kalkulator bmi bisa dihitung di website ini</p>
+    </header>
+    <main>
+        <div class = "main"> 
+            <div class="form" id="BMIForm"> <!-- coding untuk form, mempunyai 1 radio widget dan 3 input number widget-->
+                <form action="" method ="post" id="myform">
+                <label>Jenis Kelamin</label><br>
+                <input type="radio" name="sex" id="sex-pria">
+                <label for="sex-pria">Laki-Laki</label>
+                <input type="radio" name="sex" id="sex-wanita">
+                <label for="sex-wanita">Perempuan</label><br>
+                <label>Usia(tahun)</label><br>
+                <input class = 'usiainput' type="number" name="usia" id="usia-id"><br>
+                <label>Berat Badan(kg)</label><br>
+                <input class = 'bbinput'type="number" name="berat" id="brbd"><br>
+                <label>Tinggi Badan(m)</label><br>
+                <input class = 'tbinput' type="number" name="tinggi" id="tinggi-id"><br>
+                <button class="bmi_button" id ="bmi_button">Lanjutkan</button> <!--tombol untuk kalkulasi BMI-->
+                <script>
+                    const bmibutton = document.getElementById("bmi_button")
+                    bmibutton.addEventListener("click", BMI)
+                </script>
+                <button class="button_ulang" id ="res_button" onclick="Reset()">Ulang</button>
+                </form>
+            </div>
+    <div class="result_big">
+    <div class ="result_div">
+        <h2>Hasil BMI anda adalah:</h2>
+    <section class ="result">
+        <h2></h2> <!-- Jawaban BMI disini-->
+    </section>
+    </div>
+    <div class = "cat_div">
+     <h2>Penjelasan BMI anda:</h2>
+    <section class ="intepret"> 
+     <h2></h2> <!-- Jawaban kategori BMI disini-->
+    </section>
+    </div>
+    <div>
+    <button class="download">Download BMI anda</button>
+    </div>
+    </div>
+    </main>
+    <footer class = 'footer'>
+    <h3>Harap Website ini bisa membantu untuk mengetahui BMI anda </h3>
+    </footer>
+</body>
+</html>

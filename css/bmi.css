@@ -1,0 +1,86 @@
+.header1{
+    font-family:"Arial";
+    border: 3px solid;
+    padding:8px;
+    background-color:lightpink;
+    flex-direction:column;
+    flex:1;
+}
+.main{
+    padding : 8px;
+    display:flex;
+}
+.form{
+    background-color:lightyellow;
+    padding:8px;
+    border:3px solid;
+    flex:1;
+    flex-direction:column;
+    
+}
+.result_big
+{
+    flex:1;
+    padding:8px;
+    border:3px solid;
+    background-color:azure;
+    flex-direction:column;
+}
+.result_div{
+    text-align:left;
+}
+.result{
+    text-align:left;
+}
+.catdiv{
+    text-align:left;
+}
+.bbinput{
+    border-radius:6px
+}
+.usiainput{
+    border-radius:6px
+}
+.tbinput{
+    border-radius:6px
+}
+.bmi_button{
+    border:2px solid;
+    border-radius:8px;
+    background-color:lightgreen;
+    margin-top:5px;
+    font-family:'Segoe UI';
+    
+}
+.button_ulang{
+    border:2px solid;
+    border-radius:8px;
+    background-color: lightsalmon;
+    font-family:'Segoe UI';
+    
+}
+.intepret{
+    border: 2px solid;
+    background-color:lightblue;
+    width:400px;
+    font-family:'Franklin Gothic Medium';
+    display:'flex';
+}
+.result{
+    border: 3px solid;
+    background-color:salmon;
+    width: 400px;
+    font-family:'Franklin Gothic Medium';
+}
+.bmiimg{
+    width:300px;
+    height:200px;
+}
+.download{
+    border:2px solid;
+    border-radius:8px;
+    background-color:darkgrey;
+    margin-top:10px;
+    color:white;
+    font-family:'Segoe UI';
+}
